@@ -100,6 +100,17 @@
      $ git push origin master			# 推送到Github
      ```
 
+   * 在github同一个仓库上传多个项目
+
+     ```
+     复制新项目Javacode到仓库iris-studyspace
+     
+     $ git add .
+     $ git commit -m "基本语法代码练习"
+     $ git remote add origin git@github.com:irisTechdom/iris-studyspace.git
+     $ git push -u origin master
+     ```
+
      
 
    # 学习后完成内容
@@ -109,3 +120,4 @@
    * [x] git连接github
    * [x] 添加远程仓库
    * [x] 推送到远程仓库
+   * [x] 在github同一个仓库上传多个项目
